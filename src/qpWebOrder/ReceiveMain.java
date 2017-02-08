@@ -31,6 +31,10 @@ public class ReceiveMain {
 
                         if(clientSocket.isConnected())
                         {
+
+//                        *********This is a test of the mother fucking github uploader.  Ideally what will happen here is that github*******
+//                        *********automatically detects changes in the project and allows for another update.*******************************
+
                             System.out.println("<" + date + "> *********************New Connection from " + clientSocket.getRemoteSocketAddress().toString() + "*********************");
                             out.print(1);
                             System.out.println("<" + date + "> New Message Received from " + clientSocket.getRemoteSocketAddress().toString());
